@@ -1,0 +1,144 @@
+/* App.css */
+
+/* Common Styles */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #71ee8c, #e7d677);
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* BusinessCard Styles */
+
+.card {
+  background: linear-gradient(45deg, #3498db, #9b59b6);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-header {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-text {
+  font-size: 1.1rem;
+}
+
+.card-footer {
+  padding: 20px;
+}
+
+.card-footer p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.card-footer ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.card-footer li {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+/* Button Styles */
+
+.social-buttons {
+  display: flex;
+  margin: 10px;
+}
+
+.social-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+
+.social-button:hover {
+  background-color: #25329e;
+}
+
+/* CreateCard Styles */
+
+form {
+  background: linear-gradient(45deg, #3498db, #9b59b6);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
